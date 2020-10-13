@@ -1,0 +1,48 @@
+<Algo name="Sans titre" desc="permettant de saise N (N > 0) puis rempiler un tableau T de type Tab  par N entiers  et afficher le factorielle de chaque element de tableau en ordre de son remplissage.">
+<constantes>
+<const name="Taille_max" valeur="10"/>
+</constantes>
+<types>
+<tab name="tab" contenu="entier" taille="10"/>
+</types>
+<variables>
+<var name="T" type="tab"/>
+<var name="N" type="entier"/>
+<var name="I" type="entier"/>
+</variables>
+<fonctions>
+<fct name="facto" type="entier">
+<para name="A" passage="0" type="entier"/>
+<variables>
+<var name="I" type="entier"/>
+<var name="F" type="entier"/>
+</variables>
+<Debut>
+<item exp="1" index="1" var="F"/>
+<item vi="1" cmp="I" pas="" index="9" vf="A">
+<item exp="F*I" index="1" var="F"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item name="facto" retour="F" index="13"/>
+</Debut>
+</fct>
+</fonctions>
+<Debut>
+<item index="-1">
+<item index="2" var="N" msg="&quot;Donner N : &quot;"/>
+<item index="11" condition="N>0"/>
+</item>
+<item vi="1" cmp="I" pas="" index="9" vf="N">
+<item index="2" var="T[I]" msg="&quot;donner t[&quot;+I+&quot;]:&quot;"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item vi="1" cmp="I" pas="" index="9" vf="N">
+<item index="3" msg="&quot;t[&quot;+I+&quot;]=&quot;+T[I]"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item vi="1" cmp="I" pas="" index="9" vf="N">
+<item index="3" msg="facto(T[I])"/>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</Algo>

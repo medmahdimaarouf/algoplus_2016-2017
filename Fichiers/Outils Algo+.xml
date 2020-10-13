@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Outils>
+	<item index="-1" outils="Déclaration">
+		<item index="0" outils="Constantes"/>
+		<item index="-1" outils="Types">
+			<item index="1" outils="Tableaux"/>
+			<item index="2" outils="Matrices"/>
+			<item index="3" outils="Enregistrements"/>
+			<item index="4" outils="Fichiers"/>
+		</item>
+		<item index="5" outils="Variables"/>
+		<item index="-1" outils="Sous Programme">
+			<item index="6" outils="Fonctions"/>
+			<item index="7" outils="Procedures"/>
+		</item>
+	</item>
+	<item index="-1" outils="Structure condionel">
+		<item index="8" outils="SI...ALORS"/>
+		<item index="9" outils="SELON...FAIRE"/>
+	</item>
+	<item index="-1" outils="Structure itérative">
+		<item index="10" outils="POUR...DE..A"/>
+		<item index="11" outils="TANTEQUE...FAIRE"/>
+		<item index="12" outils="REPETER...JUSQU'A"/>
+	</item>
+	<item index="-1#" outils="Instruction simple">
+		<item index="13" outils="LIRE variable"/>
+        <item index="14" outils="Ecrire message"/>
+        <item index="15" outils="AFFECTATION"/>
+		<item index="16" outils="Appelle à une Procedure"/>
+        <item index="17" outils="Retourne d'une Fonction"/>
+	</item>
+	<item index="-1" outils="Procedures prédefinies">
+				<item index="18#1" outils="Allouer(var P : Pointeur)"/>
+                <item index="18#2" outils="Liberer(var P : Pointeur)"/>
+                <item index="18#3" outils="Associer(var F : Fichier,ch : chaine)"/>
+                <item index="18#4" outils="Ouvrir(var F : Fichier)"/>
+                <item index="18#5" outils="Fermer(var F : Fichier)"/>
+                <item index="18#6" outils="Recree(var F : Fichier)"/>
+                <item index="18#7" outils="Pointer(var F : Fichier, P : entier)"/>
+                <item index="18#8" outils="Lire(var F : Fichier,var V : variable)"/>
+                <item index="18#9" outils="Valeur(ch : chaine,N : entier,e : booleen)"/>
+                <item index="18#10" outils="Convch(N : entier,var ch : chaine)"/>
+                <item index="18#11" outils="Efface(var ch : chaine, pi,pf : entier)"/>
+                <item index="18#12" outils="Inserer(ch1 : chaine, var ch2 : chaine,p : entier)"/>
+                <item index="18#13" outils="Concat(var ch1 : chaine, ch2 : chaine)"/>
+                <item index="18#14" outils="Ajouter(var F : Fichier,ch : chaine)"/>
+	</item>
+	<item index="-1" outils="Procedures Algo+">
+	</item>
+</Outils>

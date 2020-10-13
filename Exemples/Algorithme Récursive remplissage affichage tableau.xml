@@ -1,0 +1,36 @@
+<Algo desc="Permettant de saise et afficher un tableau de 10 entier en mode r?cursives." name="Sans titre">
+<types>
+<tab taille="10" name="Tab" contenu="entier"/>
+</types>
+<variables>
+<var type="Tab" name="T"/>
+</variables>
+<procedures>
+<proc name="saisie">
+<para type="Tab" name="T" passage="1"/>
+<para type="entier" name="i" passage="0"/>
+<Debut>
+<item condition="i &lt;= 10" index="5">
+<item msg="&quot;donner T[ &quot; + i + &quot; ] : &quot;" index="2" var="T[i]"/>
+<item isPred="0" para="T,i+1" index="12" proc="saisie"/>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</proc>
+<proc name="affiche">
+<para type="Tab" name="T" passage="0"/>
+<para type="entier" name="i" passage="0"/>
+<Debut>
+<item condition="i &lt;= 10" index="5">
+<item msg="&quot;T[ &quot; + i + &quot; ] = &quot; + T[i]" index="3"/>
+<item isPred="0" para="T,i+1" index="12" proc="affiche"/>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</proc>
+</procedures>
+<Debut>
+<item isPred="0" para="T,1" index="12" proc="saisie"/>
+<item isPred="0" para="T,1" index="12" proc="affiche"/>
+</Debut>
+</Algo>

@@ -1,0 +1,36 @@
+<Algo name="Sans titre" desc="Afficher si N (entier) est premier ou non.">
+<variables>
+<var name="N" type="entier"/>
+</variables>
+<fonctions>
+<fct name="Premier" type="booleen">
+<para name="d" passage="0" type="entier"/>
+<para name="N" passage="0" type="entier"/>
+<Debut>
+<item condition="d &lt;= (N / 2 +1)" index="5">
+<item condition="N % d != 0" index="5">
+<item name="Premier" index="13" retour="Premier(d+1,N)"/>
+<item index="6">
+<item name="Premier" index="13" retour="VRAI"/>
+</item>
+<item index="0" app="FIN SI"/>
+</item>
+<item index="6">
+<item name="Premier" index="13" retour="FAUX"/>
+</item>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</fct>
+</fonctions>
+<Debut>
+<item msg="&quot;donner N : &quot;" index="2" var="N"/>
+<item condition="Premier(2,N) == FAUX" index="5">
+<item msg="&quot;Votre entier &quot; + N + &quot; est premier&quot;" index="3"/>
+<item index="6">
+<item msg="&quot;Votre entier &quot; + N + &quot; n'est pas premier&quot;" index="3"/>
+</item>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</Algo>

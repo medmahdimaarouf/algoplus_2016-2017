@@ -1,0 +1,108 @@
+<Algo name="Sans titre" desc="Un livre est caractérisé par : &#xa; * Le nom &lt;&lt;nom_livre>>&#xa; * Le nom de l'auteur &lt;&lt; nom_auteur>>&#xa; * Le Code du livre &lt;&lt; isbn >>&#xa;Permettant de saisit un tableau T de N livres ( 5 &lt;= N &lt; 27),de le trier et de l'afficher.">
+<types>
+<enreg name="Livre">
+<champ name="nom_livre" type="chaine"/>
+<champ name="nom_auteur" type="chaine"/>
+<champ name="isbn" type="entier"/>
+</enreg>
+<tab name="Tab" contenu="Livre" taille="26"/>
+</types>
+<variables>
+<var name="T" type="Tab"/>
+<var name="N" type="entier"/>
+</variables>
+<procedures>
+<proc name="saisie">
+<para name="N" passage="1" type="entier"/>
+<para name="T" passage="1" type="Tab"/>
+<variables>
+<var name="i" type="entier"/>
+</variables>
+<Debut>
+<item index="-1">
+<item index="2" var="N" msg="&quot;entrer le nombre de livres &quot;"/>
+<item index="11" condition="N &lt;= 26 &amp;&amp;  N >= 5"/>
+</item>
+<item vi="1" cmp="i" pas="1" index="9" vf="N">
+<item index="2" var="T[i].nom_livre" msg="&quot;entrer le nom de livre &quot;"/>
+<item index="2" var="T[i].nom_auteur" msg="&quot;entrer le nom de l'auteur &quot;"/>
+<item index="2" var="T[i].isbn" msg="&quot;entrer le code de livre &quot;"/>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+<proc name="affiche">
+<para name="N" passage="0" type="entier"/>
+<para name="T" passage="0" type="Tab"/>
+<variables>
+<var name="i" type="entier"/>
+</variables>
+<Debut>
+<item vi="1" cmp="i" pas="1" index="9" vf="N">
+<item index="3" msg="&quot;Livre &quot; + i"/>
+<item index="3" msg="&quot;le nom de livre &quot; + T[i].nom_livre"/>
+<item index="3" msg="&quot;le nom de l'auteur &quot; + T[i].nom_auteur"/>
+<item index="3" msg="&quot;le code de livre &quot; + T[i].isbn"/>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+<proc name="Permut">
+<para name="X" passage="1" type="Livre"/>
+<para name="Y" passage="1" type="Livre"/>
+<variables>
+<var name="aux" type="Livre"/>
+</variables>
+<Debut>
+<item exp="X" index="1" var="aux"/>
+<item exp="Y" index="1" var="X"/>
+<item exp="aux" index="1" var="Y"/>
+</Debut>
+</proc>
+<proc name="Maximum">
+<para name="i" passage="0" type="entier"/>
+<para name="N" passage="0" type="entier"/>
+<para name="T" passage="0" type="Tab"/>
+<para name="indice" passage="1" type="entier"/>
+<variables>
+<var name="Max" type="entier"/>
+<var name="j" type="entier"/>
+</variables>
+<Debut>
+<item exp="T[i].isbn" index="1" var="Max"/>
+<item exp="i" index="1" var="indice"/>
+<item vi="i+1" cmp="j" pas="1" index="9" vf="N">
+<item index="5" condition="T[j].isbn > Max">
+<item exp="T[i].isbn" index="1" var="Max"/>
+<item exp="j" index="1" var="indice"/>
+<item index="0" app="FIN SI"/>
+</item>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+<proc name="trie_Selection">
+<para name="N" passage="0" type="entier"/>
+<para name="T" passage="1" type="Tab"/>
+<variables>
+<var name="i" type="entier"/>
+<var name="indice" type="entier"/>
+</variables>
+<Debut>
+<item vi="1" cmp="i" pas="1" index="9" vf="N-1">
+<item isPred="0" index="12" proc="Maximum" para="i,N,T,indice"/>
+<item index="5" condition="T[i].isbn > T[indice].isbn">
+<item isPred="0" index="12" proc="Permut" para="T[i],T[indice]"/>
+<item index="0" app="FIN SI"/>
+</item>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+</procedures>
+<Debut>
+<item isPred="0" index="12" proc="saisie" para="N,T"/>
+<item isPred="0" index="12" proc="trie_Selection" para="N,T"/>
+<item isPred="0" index="12" proc="affiche" para="N,T"/>
+</Debut>
+</Algo>

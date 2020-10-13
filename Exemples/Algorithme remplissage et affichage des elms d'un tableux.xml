@@ -1,0 +1,45 @@
+<Algo name="Sans titre" desc="Permettant de memoiriser un ensemble des entiers dans un tableau T ( 10 entier aux maximum) . puis l'afficher dans son ordre de remplissage.">
+<types>
+<tab name="Tab" contenu="entier" taille="10"/>
+</types>
+<variables>
+<var name="T" type="Tab"/>
+<var name="N" type="entier"/>
+</variables>
+<procedures>
+<proc name="Remplir_Tab">
+<para name="t" passage="1" type="Tab"/>
+<para name="N" passage="0" type="entier"/>
+<variables>
+<var name="i" type="entier"/>
+</variables>
+<Debut>
+<item vi="1" cmp="i" pas="1" index="9" vf="N">
+<item index="2" var="t[i]" msg="&quot;donner T[&quot; + i + &quot;] ->&quot;"/>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+<proc name="affiche_Tab">
+<para name="t" passage="0" type="Tab"/>
+<para name="N" passage="0" type="entier"/>
+<variables>
+<var name="i" type="entier"/>
+</variables>
+<Debut>
+<item vi="1" cmp="i" pas="1" index="9" vf="N">
+<item index="3" msg="&quot;T[ &quot; + i + &quot;] = &quot; + t[i]"/>
+<item index="0" app="FIN POUR"/>
+</item>
+</Debut>
+</proc>
+</procedures>
+<Debut>
+<item index="-1">
+<item index="2" var="N" msg="&quot;donner N -> &quot;"/>
+<item index="11" condition="N > 0"/>
+</item>
+<item isPred="0" index="12" proc="Remplir_Tab" para="T,N"/>
+<item isPred="0" index="12" proc="affiche_Tab" para="T,N"/>
+</Debut>
+</Algo>

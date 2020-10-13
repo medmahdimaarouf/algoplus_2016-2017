@@ -1,0 +1,76 @@
+<Algo name="Sans titre" desc="Permettant de memoiriser des informations relatives de N ( N > 0 ) etudiants (nom,prenom,moy) puis  calculer et afficher leur moyenne generale .">
+<types>
+<enreg name="etudiant">
+<champ name="nom  " type="chaine"/>
+<champ name="pren  " type="chaine"/>
+<champ name="moy  " type="reel"/>
+<champ name="CIN  " type="chaine"/>
+</enreg>
+<tab name="tab_etudiant" taille="10" contenu="etudiant"/>
+</types>
+<variables>
+<var name="T" type="tab_etudiant"/>
+<var name="N" type="entier"/>
+<var name="I" type="entier"/>
+</variables>
+<fonctions>
+<fct name="calcule_moy" type="reel">
+<para name="tab" type="etudiant" passage="0"/>
+<para name="N" type="entier" passage="0"/>
+<variables>
+<var name="I" type="entier"/>
+<var name="moy" type="reel"/>
+</variables>
+<Debut>
+<item exp="0" var="moy" index="1"/>
+<item vf="N" cmp="I" vi="1" pas="" index="9">
+<item exp="moy+tab[I].moy" var="moy" index="1"/>
+<item app="FIN POUR" index="0"/>
+</item>
+<item name="facto" index="13" retour="moy / N"/>
+</Debut>
+</fct>
+</fonctions>
+<procedures>
+<proc name="remplir_tab">
+<para name="T" type="etudiant" passage="1"/>
+<para name="N" type="entier" passage="0"/>
+<variables>
+<var name="I" type="entier"/>
+</variables>
+<Debut>
+<item vf="N" cmp="I" vi="1" pas="" index="9">
+<item var="T[I].nom" index="2" msg="&quot;donner T[&quot; + I + &quot;].nom: &quot;"/>
+<item var="T[I].pren" index="2" msg="&quot;donner T[&quot; + I + &quot;].pren: &quot;"/>
+<item var="T[I].moy" index="2" msg="&quot;donner T[&quot; + I + &quot;].moy :&quot;"/>
+<item app="FIN POUR" index="0"/>
+</item>
+</Debut>
+</proc>
+<proc name="Affiche_tab">
+<para name="T" type="etudiant" passage="0"/>
+<para name="N" type="entier" passage="0"/>
+<variables>
+<var name="I" type="entier"/>
+</variables>
+<Debut>
+<item vf="N" cmp="I" vi="1" pas="" index="9">
+<item index="3" msg="&quot;Case : &quot; + I + &quot;: &quot;"/>
+<item index="3" msg="&quot;Nom est : &quot; + T[I].nom"/>
+<item index="3" msg="&quot;Prenom est : &quot; + T[I].pren"/>
+<item index="3" msg="&quot;Moyenne est : &quot; + T[I].moy"/>
+<item app="FIN POUR" index="0"/>
+</item>
+</Debut>
+</proc>
+</procedures>
+<Debut>
+<item index="-1">
+<item var="N" index="2" msg="&quot;Donner N : &quot;"/>
+<item condition="N>0" index="11"/>
+</item>
+<item isPred="0" proc="remplir_tab" index="12" para="T,N"/>
+<item isPred="0" proc="Affiche_tab" index="12" para="T,N"/>
+<item index="3" msg="calcule_moy(T,N)"/>
+</Debut>
+</Algo>

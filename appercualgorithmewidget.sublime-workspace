@@ -1,0 +1,716 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"borde",
+				"border-width"
+			],
+			[
+				"b",
+				"border\tAttr"
+			],
+			[
+				"re",
+				"requiredJS"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"get",
+				"geter"
+			],
+			[
+				"ge",
+				"geter"
+			],
+			[
+				"si",
+				"sign_in_identify"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"a",
+				"ajax"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"yy",
+				"yyleng"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"h",
+				"http-equiv"
+			],
+			[
+				"tim",
+				"time_c"
+			],
+			[
+				"fon",
+				"font2"
+			],
+			[
+				"pr",
+				"Primary"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"p",
+				"p_num"
+			],
+			[
+				"ch",
+				"ch"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"ti",
+				"time_c"
+			],
+			[
+				"dat",
+				"date_c"
+			],
+			[
+				"af",
+				"af2"
+			],
+			[
+				"com",
+				"cpomteur"
+			],
+			[
+				"N",
+				"NIL"
+			],
+			[
+				"FN_co",
+				"FN_Concater"
+			],
+			[
+				"affe",
+				"affecter"
+			],
+			[
+				"f",
+				"Fichier"
+			],
+			[
+				"Variab",
+				"variable"
+			],
+			[
+				"FN",
+				"FN_Cos"
+			],
+			[
+				"P",
+				"Proc_ouvrir"
+			],
+			[
+				"Pr",
+				"Proc_Inserer"
+			],
+			[
+				"Proce",
+				"Proc_Efface"
+			],
+			[
+				"Proc",
+				"Proc_Concate"
+			],
+			[
+				"FNC",
+				"FN_Concate"
+			],
+			[
+				"ALGo",
+				"Algorithm"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"en",
+				"entier"
+			],
+			[
+				"R",
+				"Racine"
+			],
+			[
+				"Car",
+				"Carre"
+			],
+			[
+				"ty",
+				"TypeOfValue"
+			],
+			[
+				"AL",
+				"Algorithm"
+			],
+			[
+				"aff",
+				"affecter"
+			],
+			[
+				"fo",
+				"fonction"
+			],
+			[
+				"Ty",
+				"TypeOfValue"
+			],
+			[
+				"typ",
+				"TypeOfValue"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"con",
+				"convertion"
+			],
+			[
+				"pro",
+				"procedure"
+			],
+			[
+				"val",
+				"valeur"
+			],
+			[
+				"E",
+				"Erreur"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"is",
+				"isVar"
+			],
+			[
+				"i",
+				"I"
+			],
+			[
+				"est",
+				"estNIL"
+			],
+			[
+				"type",
+				"Type1"
+			],
+			[
+				"c",
+				"champ"
+			],
+			[
+				"v",
+				"variables"
+			],
+			[
+				"pa",
+				"para"
+			],
+			[
+				"d",
+				"der"
+			],
+			[
+				"par",
+				"parcour"
+			],
+			[
+				"L",
+				"Liste"
+			],
+			[
+				"co",
+				"comp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"a+a",
+			"a",
+			"a[0]",
+			"a.at(0)",
+			"a = [1,2,3]",
+			"a = new Array()",
+			"a = new int[]",
+			"int[]",
+			"a = new int",
+			"--i",
+			"++i",
+			"++i*",
+			"i++",
+			"++i",
+			"++i$",
+			"i++",
+			"i = 0",
+			"i++",
+			"i++µ",
+			"i  =3",
+			"ay = I",
+			"10 ** 2",
+			"a= 2",
+			"a**0",
+			"a**2",
+			"a**a",
+			"0**a",
+			"12**a",
+			"1**a",
+			"a**",
+			"**a",
+			"a = 1",
+			"print(a**)",
+			"print(**a)",
+			"a = **a",
+			"**a",
+			"a**",
+			"sow 1",
+			"delet a",
+			"delete a",
+			"delete print",
+			"alert(\"jjj\")",
+			"alert = print",
+			"alert",
+			"alert = 0",
+			"yes",
+			"    print (a)",
+			"if a>0:",
+			"if a> 0 : print(\"kk\")",
+			"if a>0:a++",
+			"def tets():",
+			"what are you",
+			"print(\"jk\")",
+			"a",
+			"a = 3",
+			"var a = 0;",
+			"def test():",
+			"tets"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Developpement/Applications/Algo+2016_2017/Algo+2016_2017/appercualgorithmewidget.sublime-project",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP1/CV.html",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/mestps/Tunisie_Telecom_2/Home.html",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/mestps/Tunisie_Telecom_2/index.php",
+		"/D/Developpement/Applications/Algo+2016_2017/Deployement/Exemples/Algorithm calcule le produit des elms de tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/2018/TestFBAjax.html",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/mestps/Tunisie_Telecom_2/Js/Ajax_Home.js",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Testes/goJS.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Compilateur C/Code/lex.c",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Developpement/bootstrap.min.js.erb",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Compilateur C/Code/lex.h",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/test.php",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/deconnexion.php",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/page_secrete2.php",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/bienvenue.php",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/login.php",
+		"/D/Etude DSI 2017-2018/PHP/PHP/Atelier5/EX2/page_secrete1.php",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/mestps/Tunisie_Telecom_2/src/rechercher_zones",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/mestps/Tunisie_Telecom_2/src/Html_recherche_ID.txt",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Testes/TestReqred.html",
+		"/D/Etude DSI 2017-2018/PHP/monsite/ajx/monFichierAjax.ajx.php",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP2/TestJQuery-Eventes.html",
+		"/D/Etude DSI 2017-2018/Base de donnees/TP2 insertion des donnees.txt",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Developpement/Code sources/16235-868395-simulation-console-windows-faux-virus/cmd2.htm",
+		"/D/Etude DSI 2017-2018/Framework coté client/TP3/Tp3 .html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Httrak/facebook/www.facebook.com/login/identifyad2e.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Httrak/facebook/www.facebook.com/GET.html",
+		"/D/TESTES/QT/Application/Telecomme/TunisieTelecomme/mainwindow.cpp",
+		"/D/Etude DSI 2017-2018/PHP/TP/TP4/Exericie1/Exercice1.php",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/index.php",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Developpement/Algo+java/compil/src/compil/compiler.java",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/test.js",
+		"/C/HelloWord.java",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/clavier-arabe.doc",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP2/TP2.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/pagewebalgo.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Android/ressourceFacbooklite/android/support/v4/a/a.java",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP1/TP1 CV.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Testes/index.htm",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Inteface Algo+ (Evaluation)/OutputProgram/Makefile",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Result test just test/Page connection reduit/Facebook - Connexion ou inscription_files/_W54h_EVTGB.js.téléchargement",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/Ressources/SourceProgramAlog+.js",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Test/Facebook - Connexion ou inscription.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Inteface Algo+ (Evaluation)/InterfaceAgo+/Fichiers/SourceProgramAlog+.js",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP2/TP1 CV.html",
+		"/C/Program Files (x86)/Internet Explorer/iexplore.exe",
+		"/C/Program Files (x86)/Microsoft Visual Studio 14.0/JavaScript/References/domWeb.js",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/JQuery/jquery-3.2.1.js",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/JQuery/jquery-3.2.1.min.js",
+		"/D/Etude DSI 2017-2018/TPS/Framework coté client/TP1/jquery-3.2.1.min.js",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/facbook/Facebook - Connexion ou inscription.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/testAffectation.html",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/save.html",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Compilateur Algo+ (Evitation des ERREURS )/build-CompilateurAlgo+-Desktop_Qt_5_2_1_MinGW_32bit-Debug/Exemples/Algorithm calcule le produit des elms de tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Testt.algoPP",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Algorithme Liste Simplement Chainé(LSC).xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Inteface Algo+ (Evaluation)/InterfaceAgo+/Fichiers/Outils Algo+.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Test Pointeurs.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/Ressources/InitScript.txt",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/SourceProgramAlog+.js",
+		"/D/Etude DSI/TPS/TP1/CV.html",
+		"/C/Windows/System32/cmd.exe",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-0.7/algobox-0.7/algobox.pro",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-0.7/algobox-0.7/algobox.icns",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-0.7/algobox-0.7/win.rc",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Exemples/Algorithme factorielle des elements d'un tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/test Les fonctions prdf Algo+",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Test 2 produit tab.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Test 2 produit tab.algo",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Somme de a est b.algp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/ListeSC_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/ListeSC.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Factoriel Recursive_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Factoriel Recursive.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Test evaluation pointeur.algo",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Puissance A^B_New3.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme puissance A^B_New2.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Puissance A^B_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme puissance A^B.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Produit tableau_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Produit tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme passage des parametres.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Passage des parametres des fcts_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Passage des parametres des fcts.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Lite Simplement Chainé.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Liste Simplement Chainé(LSC)_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Liste Simplement Chainé(LSC).xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Calcule Moyenne Etudiants_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme Calcule Moyenne Etudiants.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme calcule Moy etudiants_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Algorithme calcule Moy etudiants.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Agrithme Factoriel Tableaux_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Agrithme Factoriel Tableaux.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Agrithme fact Tab (New)_New1.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algorithmes Exemples/Agrithme fact Tab (New).xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Test Pointeurs.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-0.7/algobox-0.7/browserdialog.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-0.7/algobox-0.7/algowebpage.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Compilateur_Algo+/maker_output_program.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes Version 2/Algorithme Produit tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/WebView-JavaScript_Algo+/WebView-JavaScript_Algo+.pro",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-1.0.1/algobox-1.0.1/utilities/algobox.desktop",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Testes/Algobox Source/Source/Temp/algobox.pro",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Compressed/algobox-1.0.1/algobox-1.0.1/utilities/qt_menu.nib/classes.nib",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Algorithme Produit tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Algorithme Puissance A^B.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Factoriel Recursive.xml",
+		"/C/Program Files (x86)/Algobox/ressources/AUTHORS",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Inteface Algo+ (Evaluation)/InterfaceAgo+/Editeur_Arbre_Algorithme/Dialogs_Editeur/dialog_appelle_sousprogramproc.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Algorithme Calcule Moyenne Etudiants.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Agrithme Factoriel Tableaux.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Algorithme Passage des parametres des fcts.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Testes/Camtasia/My First Test CamTasia/scripts/config_xml.js",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/Compilateur_Algo+/memoire.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Algorithme Liste Simplement Chainé(LSC).xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes/Test Pointeurs.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/Compilateur_Algo+/executer.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Evaluation_Execution_Algo+/Compilateur_Algo+/maker_output_program.cpp",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Documents/Compte Microsoft_files/signupV2Package_nUou48PWsCYv6A8YhyDpLQ2.js.téléchargement",
+		"/C/Users/Med_Mahdi_Maarouf/Downloads/Documents/Compte Microsoft_files/accountCorePackage_paI9ZojD-FM458uo17xNdA2.js.téléchargement",
+		"/C/Program Files (x86)/Google/Google Earth/client/debug.log",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes Version 2/Algorithme Calcule Moyenne Etudiants.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithmes Version 2/Agrithme Factoriel Tableaux.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Algorithme Calcule Moyenne Etudiants.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Algorithme Produit tableau.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Algorithme Passage des parametres des fcts.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Factoriel Recursive.xml",
+		"/C/Users/Med_Mahdi_Maarouf/Desktop/Algo+/Evaluation Execution Algo+/Algorithm Version 2/Algorithme Puissance A^B.xml"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<",
+			">",
+			"&lt;",
+			"/&gt;",
+			");\n",
+			"{",
+			"]",
+			"12",
+			"\\n",
+			"'@'",
+			"@",
+			"mid",
+			"msg",
+			"-1",
+			"a =",
+			"a=",
+			"var a=",
+			"getElementById",
+			"start",
+			"Start",
+			"{",
+			";",
+			">",
+			"form",
+			";",
+			"{",
+			">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n<",
+			"\\n>",
+			"<",
+			">",
+			"{'\\n'",
+			"{\"\\n\"",
+			"{\\n",
+			"\\n",
+			";\\n",
+			">\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "appercualgorithmewidget.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

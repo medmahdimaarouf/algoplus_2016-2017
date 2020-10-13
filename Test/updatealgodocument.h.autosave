@@ -1,0 +1,31 @@
+#ifndef UPDATEALGODOCUMENT_H
+#define UPDATEALGODOCUMENT_H
+#include<QtXml>
+#include <QObject>
+
+class UpdateAlgoDocument : public QObject
+{
+    Q_OBJECT
+public:
+    explicit UpdateAlgoDocument(QObject *parent = 0);
+
+signals:
+
+public slots:
+
+    void insert_Declaration_Const(const QString name,QString value);
+    
+    void insert_Declaration_Vecteur(const QString name,QString content,int taille);
+    
+    void insert_Declaration_Matrice(const QString name,QString content,int nbrligne,int nbrcolum);
+    
+    void insert_Declaration_Record(const QString name,const QList<QString> champs);
+    
+    void insert_Declaration_File(const QString name,const QString content);
+    
+    void insert_Declaration_Variable(const QString name,const QString type);
+    
+    void insert_Declaration_Procedure(const QString name,const QList<QString> parametres);
+};
+
+#endif // UPDATEALGODOCUMENT_H

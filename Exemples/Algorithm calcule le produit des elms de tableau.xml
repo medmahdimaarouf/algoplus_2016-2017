@@ -1,0 +1,43 @@
+<Algo name="Sans titre" desc="Permettant de memoiriser un ensemble des entiers dans un tableau T de 10 entier aux maximum . puis calculer et afficher leur produit .">
+<types>
+<tab name="tab" contenu="entier" taille="10"/>
+</types>
+<variables>
+<var name="n" type="entier"/>
+<var name="i" type="entier"/>
+<var name="t" type="tab"/>
+</variables>
+<fonctions>
+<fct name="produit_tab" type="entier">
+<para name="t" passage="0" type="tab"/>
+<para name="N" passage="0" type="entier"/>
+<variables>
+<var name="i" type="entier"/>
+<var name="prod" type="entier"/>
+</variables>
+<Debut>
+<item exp="1" index="1" var="prod"/>
+<item vi="1" cmp="i" pas="" index="9" vf="N">
+<item exp="prod*t[i]" index="1" var="prod"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item name="produit_tab" retour="prod" index="13"/>
+</Debut>
+</fct>
+</fonctions>
+<Debut>
+<item index="-1">
+<item index="2" var="n" msg="&quot;Donner n:&quot;"/>
+<item index="11" condition="n>0"/>
+</item>
+<item vi="1" cmp="i" pas="" index="9" vf="n">
+<item index="2" var="t[i]" msg="&quot;donner T[ &quot; + i + &quot; ]: &quot;"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item vi="1" cmp="i" pas="" index="9" vf="n">
+<item index="3" msg="&quot;T[&quot;+i+&quot;]=&quot;+t[i]"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item index="3" msg="produit_tab(t,n)"/>
+</Debut>
+</Algo>

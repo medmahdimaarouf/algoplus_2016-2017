@@ -1,0 +1,13 @@
+<Algo name="Sans titre" desc="C'est un Algorithm Simple qui permette de calculer le somme de deux entier a et b puis l'afficher">
+<variables>
+<var name="a" type="entier"/>
+<var name="b" type="entier"/>
+<var name="res" type="entier"/>
+</variables>
+<Debut>
+<item index="2" var="a" msg="&quot;Donner a &quot;"/>
+<item index="2" var="b" msg="&quot;Donner b &quot;"/>
+<item exp="a + b" index="1" var="res"/>
+<item index="3" msg="&quot;Le somme de &quot; + a + &quot; + &quot; + b + &quot; = &quot; + res"/>
+</Debut>
+</Algo>

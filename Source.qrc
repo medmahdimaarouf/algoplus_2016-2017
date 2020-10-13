@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icon/Benjigarner-Summer-Collection-Software-Photoshop.ico</file>
+        <file>Icon/Icons8-Ios7-Editing-Increase-Font.ico</file>
+        <file>Icon/Custom-Icon-Design-Pretty-Office-8-Play.ico</file>
+        <file>Icon/Harwen-Simple-RUN.ico</file>
+        <file>Icon/Hopstarter-Button-Button-Delete.ico</file>
+        <file>Icon/Custom-Icon-Design-Pretty-Office-9-New-file (1).ico</file>
+        <file>Icon/Everaldo-Crystal-Clear-Device-floppy.ico</file>
+        <file>Icon/Everaldo-Crystal-Clear-App-floppy (1).ico</file>
+        <file>Icon/Oxygen-Icons.org-Oxygen-Devices-printer.ico</file>
+        <file>Icon/Hopstarter-Sleek-Xp-Basic-Close-2.ico</file>
+        <file>Icon/Iconmoon-Viva-Folder-Open.ico</file>
+        <file>Icon/Visualpharm-Must-Have-Redo.ico</file>
+        <file>Icon/Visualpharm-Must-Have-Undo.ico</file>
+        <file>Icon/Radvisual-Holographic-Application.ico</file>
+        <file>Icon/Tatice-Cristal-Intense-FAQ.ico</file>
+        <file>Icon/Oxygen-Icons.org-Oxygen-Categories-applications-education-mathematics.ico</file>
+        <file>Icon/Oxygen-Icons.org-Oxygen-Categories-applications-education-university (1).ico</file>
+        <file>Icon/Hopstarter-Soft-Scraps-Adobe-PDF-Document.ico</file>
+        <file>Icon/Acidrums4-Betelgeuse-Categories-applications-fonts.ico</file>
+        <file>Icon/Custom-Icon-Design-Office-Cut.ico</file>
+        <file>Icon/Custom-Icon-Design-Flatastic-1-Copy.ico</file>
+        <file>Icon/Fatcow-Farm-Fresh-Page-paste.ico</file>
+        <file>Icon/Hopstarter-Soft-Scraps-Document-Copy.ico</file>
+        <file>Icon/Everaldo-Crystal-Clear-App-kcmdf-cubes.ico</file>
+    </qresource>
+    <qresource prefix="/Fichiers">
+        <file>Fichiers/Outils Algo+.xml</file>
+        <file>Fichiers/SourceProgramAlog+.js</file>
+        <file>ReadMe.txt</file>
+    </qresource>
+</RCC>

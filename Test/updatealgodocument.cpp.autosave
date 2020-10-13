@@ -1,0 +1,36 @@
+#include "updatealgodocument.h"
+
+UpdateAlgoDocument::UpdateAlgoDocument(QObject *parent) :
+    QObject(parent)
+{
+}
+
+void UpdateAlgoDocument::insert_Declaration_Const(const QString name, QString value)
+{
+    
+}
+
+void UpdateAlgoDocument::insert_Declaration_Vecteur(const QString name, QString content, int taille)
+{
+    
+}
+
+void UpdateAlgoDocument::insert_Declaration_Matrice(const QString name, QString content, int nbrligne, int nbrcolum)
+{
+    
+}
+
+void UpdateAlgoDocument::insert_Declaration_Record(const QString name, const QList<QString> champs)
+{
+    
+}
+
+void UpdateAlgoDocument::insert_Declaration_File(const QString name, const QString content)
+{
+    
+}
+
+void UpdateAlgoDocument::insert_Declaration_Variable(const QString name, const QString type)
+{
+    
+}

@@ -1,0 +1,98 @@
+<Algo name="Sans titre" desc=" Permettant de memoiriser un ensemble des entiers dans une liste simplement chainé puis l'afficher suivant son ordre de remplissage .">
+<types>
+<enreg name="Element">
+<champ name="info  " type="entier"/>
+<champ name="suiv  " type="@Element"/>
+</enreg>
+</types>
+<variables>
+<var name="Liste" type="@Element"/>
+<var name="nbrc" type="entier"/>
+<var name="val" type="entier"/>
+<var name="I" type="entier"/>
+</variables>
+<fonctions>
+<fct name="dernier" type="@Element">
+<para name="L" passage="0" type="@Element"/>
+<variables>
+<var name="parcour" type="@Element"/>
+</variables>
+<Debut>
+<item exp="L" index="1" var="parcour"/>
+<item index="10" condition="!estNIL(parcour@.suiv)">
+<item exp="parcour@.suiv" index="1" var="parcour"/>
+<item index="0" app="FIN TANTEQUE"/>
+</item>
+<item name="dernier" retour="parcour" index="13"/>
+</Debut>
+</fct>
+</fonctions>
+<procedures>
+<proc name="insertion_entete">
+<para name="L" passage="1" type="@Element"/>
+<para name="N" passage="0" type="entier"/>
+<variables>
+<var name="P" type="@Element"/>
+</variables>
+<Debut>
+<item isPred="1" index="12" proc="Allouer" para="P"/>
+<item exp="N" index="1" var="P@.info"/>
+<item exp="L" index="1" var="P@.suiv"/>
+<item exp="P" index="1" var="L"/>
+</Debut>
+</proc>
+<proc name="Ajouter">
+<para name="L" passage="1" type="@Element"/>
+<para name="valeur" passage="0" type="entier"/>
+<variables>
+<var name="P" type="@Element"/>
+<var name="der" type="@Element"/>
+</variables>
+<Debut>
+<item index="5" condition="estNIL(L)">
+<item isPred="0" index="12" proc="insertion_entete" para="L,valeur"/>
+<item index="6">
+<item isPred="1" index="12" proc="Allouer" para="P"/>
+<item exp="valeur" index="1" var="P@.info"/>
+<item exp="NIL" index="1" var="P@.suiv"/>
+<item exp="dernier(L)" index="1" var="der"/>
+<item exp="P" index="1" var="der@.suiv"/>
+</item>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</proc>
+<proc name="affiche_Liste">
+<para name="L" passage="0" type="@Element"/>
+<variables>
+<var name="P" type="@Element"/>
+</variables>
+<Debut>
+<item index="5" condition="estNIL(L)">
+<item index="3" msg="'Liste est vide'"/>
+<item index="6">
+<item exp="L" index="1" var="P"/>
+<item index="10" condition="!estNIL(P)">
+<item index="3" msg="P@.info"/>
+<item exp="P@.suiv" index="1" var="P"/>
+<item index="0" app="FIN TANTEQUE"/>
+</item>
+</item>
+<item index="0" app="FIN SI"/>
+</item>
+</Debut>
+</proc>
+</procedures>
+<Debut>
+<item index="-1">
+<item index="2" var="nbrc" msg="&quot;Donner le nombredes coeux:&quot;"/>
+<item index="11" condition="nbrc>0"/>
+</item>
+<item vi="1" cmp="I" pas="" index="9" vf="nbrc">
+<item index="2" var="val" msg="&quot;Donner un coeux : &quot;"/>
+<item isPred="0" index="12" proc="Ajouter" para="Liste,val"/>
+<item index="0" app="FIN POUR"/>
+</item>
+<item isPred="0" index="12" proc="affiche_Liste" para="Liste"/>
+</Debut>
+</Algo>
