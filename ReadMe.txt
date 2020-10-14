@@ -4,17 +4,17 @@
 Merci de choisir Algo+ ,
 
 
-Algo+ 2016-2017 cette version bÈta peut contenir des erreurs ainsi que certaints fonctionnalitÈs ne sont pas disponible pour le moment , Merci d'essayer d'avoir 
+Algo+ 2016-2017 cette version b√©ta peut contenir des erreurs ainsi que certaints fonctionnalit√©s ne sont pas disponibles pour le moment , Merci d'essayer d'avoir 
 
-la dernier version d'Algo+ .
+la derniere version d'Algo+ .
 
 
-- Conseils d'utilisation cette version : 
+- Conseils d'utilisation cette version ( RAISED BUGS ): 
 
 
 * Sauvgarder vos algorithmes avant de l'executer .
 
-* Utiliser au place de ces mot cles algorithmique les mot qui les suivis .
+* Utiliser au place de ces mot cles algorithmiqueq les mot qui les suivis .
    
      - MOD -> %
      - DIV -> /
@@ -22,50 +22,48 @@ la dernier version d'Algo+ .
      - <>  -> !=
      - NOT -> !
 
-* N'utilise jamais le mot 'Algorithme' en vos algorithmes .
+* N'utilise jamais le mot 'Algorithme' en vos algorithmes ( mot reserv√© comme sytaxe cl√© ).
 
-* Ne fait jamais changer les algorithmes hors le programme (Manuellement) celui fait une perturbation dans le systeme du programme lors sa prochaine traitement de ce
- 
-algorithme .
+* Ne fait jamais changer les algorithmes hors le programme (Manuellement) celui fait une perturbation dans le systeme de parsage du programme lors sa prochaine traitement.
 
-* Algo+ fait la difference en les minuscule et les majuscule caracteres .
+* Algo+ fait la difference entre les caracteres en minuscule et majuscule  .
 
-* Si l'indication du fin du l'algorithme n'est pas vu dans votre console d'excution cause d'un erreur produit ‡ l'execution, ne fait pas l'executer
+* Si l'indication du fin du l'algorithme n'est pas vu dans votre console d'excution cause d'un erreur produit √† l'execution, ne fait pas l'executer
 
  autre fois, saugarder votre algorithme puis fermer le programme puis relancer le .
 
-* Ne fait pas ouvrire des algorithmes sauf ce qu'ils sont crÈes par ce logiciel .
+* N'ouvre pas des algorithmes sauf ce qu'ils sont cr√©es par ce logiciel .
 
 * Soyez attentif lors de l'utilisation des pointeurs dans votre algorithme ainsi que les fichiers .
 
 * Soyez attentif lors de l'utilisation les chaines des caracteres et leurs fonctions predefinis .
 
-* Si rien de chose qui se passe lors de l'utilisation un menu ou une fonctionnalitÈ sauf qui'ils sont lister ici , soyez sure que cette fonctionnalitÈ est en cour
+* Si rien de chose qui se passe lors de l'utilisation un menu ou une fonctionnalit√© sauf qui'ils sont lister ici , soyez sure que cette fonctionnalit√© est en cour
 
  de respecter une regle de l'utilisation .(supprimer une instruction non selectionner encore ) .
 
      -> Imprimer      
      -> Annuler      
-     -> RÈtablir      
+     -> R√©tablir      
      -> Restaurer      
      -> Exporter 
      -> Font / Couleur 
      -> Affichage 
      -> Configuration .
 
-* L'ouvertur d'un algorithme se fait ‡ travers le logiciel pas avec systeme d'exploitation (Ouvrir avec ...) .
+* L'ouvertur d'un algorithme se fait √† travers le logiciel pas avec systeme d'exploitation (Ouvrir avec ...) .
 
-* Pour obtenir le bon mise en execution de l'algorithme , essayez de bien verifier ‡ votre algorithme et respecter les regles de l'algorithmiques au maximum possible .
+* Pour obtenir le bon mise en execution de l'algorithme , essayez de bien verifier √† votre algorithme et respecter les regles de l'algorithmiques au maximum possible .
 
-* Eviter les caracteres spÈciaux en votre Ècriture algorithmique .
+* Eviter les caracteres sp√©ciaux en votre √©criture algorithmique .
 
-* Eviter le caractere ';' en votre Ècriture algorithmique .
+* Eviter le caractere ';' en votre √©criture algorithmique .
 
 * La console d'execution fait consomme bien de votre processeur .
 
-* Fermer le programme si vous remarquez un probleme implicite .
+* Fermer le programme si vous remarquez un probleme implicite ( programme devis√© en plusieurs processus , s'executent parallelment).
 
- Nous somme en plein d'effort d'Èviter ces problemes pour la version suivant .
+ Nous somme en plein d'effort d'√©viter ces problemes pour la version suivant .
 
 __________________________________
 
